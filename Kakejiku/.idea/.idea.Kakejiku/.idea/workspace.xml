@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e83cc7fd-6a84-4e9e-9c28-ca05dbfaa7db" name="Default Changelist" comment="" />
+    <list default="true" id="e83cc7fd-6a84-4e9e-9c28-ca05dbfaa7db" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Kakejiku/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Kakejiku/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Kakejiku/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Kakejiku/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610747405718</updated>
       <workItem from="1610747432052" duration="576000" />
-      <workItem from="1610748307744" duration="1048000" />
+      <workItem from="1610748307744" duration="1752000" />
     </task>
     <servers />
   </component>
