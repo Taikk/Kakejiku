@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1148078970767920179
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 4
 --- !u!21 &2100000
 Material:
   serializedVersion: 6
@@ -8,11 +21,12 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Leafs HighPoly
-  m_Shader: {fileID: 4800000, guid: 364ae1069b1778f43b5e632a66bdb48e, type: 3}
+  m_Shader: {fileID: 4800000, guid: 99134b1f0c27d54469a840832a28fadf, type: 3}
   m_ShaderKeywords: _GLOSSYREFLECTIONS_OFF _LEAFTYPE_DEFAULT _SPECULARHIGHLIGHTS_OFF
+    _WINDQUALITY_BEST
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
-  m_DoubleSidedGI: 0
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
@@ -51,6 +65,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _GlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 8b0017825887ee44e83ac0cb49ceadf0, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -67,7 +85,15 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _ShadowOffset:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SubsurfaceTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TranslucencyMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -101,7 +127,7 @@ Material:
     - _CullModeForward: 2
     - _CustomLightIntensity: 3
     - _CustomLightMode: 1
-    - _Cutoff: 0.2
+    - _Cutoff: 0.302
     - _Cutout: 0.5
     - _DetailNormalMapScale: 1
     - _DiffusionProfile: 1
@@ -142,6 +168,7 @@ Material:
     - _SSSScale: 0.1
     - _Saturation: 0.94
     - _Scale: 2
+    - _Shininess: 0.078125
     - _Smoothness: 0.1176471
     - _Smoothness1: 0
     - _SmoothnessTextureChannel: 0
@@ -152,6 +179,7 @@ Material:
     - _Specular: 1
     - _SpecularHighlights: 0
     - _Specularity: 0
+    - _SquashAmount: 1
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 0
@@ -197,7 +225,7 @@ Material:
     - _Value: 0.88
     - _WindMode: 1
     - _WindModeLeaves: 0
-    - _WindQuality: 0
+    - _WindQuality: 4
     - _WindStrength: 0.1
     - _ZTestDepthEqualForOpaque: 4
     - _ZTestGBuffer: 4
@@ -210,8 +238,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _ColorVariation: {r: 0.5, g: 1, b: 0.50344825, a: 1}
     - _CustomLightColor: {r: 0.6704477, g: 1, b: 0, a: 1}
-    - _DiffusionProfile_asset: {r: -6.315383e-37, g: -7.0622125e-27, b: 4.6171996e-22,
-        a: -8.3853756e-30}
+    - _DiffusionProfile_asset: {r: -6.315383e-37, g: -7.0622125e-27, b: 4.6171996e-22, a: -8.3853756e-30}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
@@ -225,3 +252,6 @@ Material:
     - _TranslucencyTint: {r: 1, g: 1, b: 1, a: 1}
     - _TranslucentColor: {r: 1, g: 1, b: 1, a: 1}
     - _TransmissionTint: {r: 0.2352941, g: 0.3294118, b: 0, a: 1}
+    - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
